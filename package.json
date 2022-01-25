@@ -1,0 +1,61 @@
+{
+  "name": "dcapxchelweck",
+  "version": "1.0.0",
+  "description": "dcap website",
+  "scripts": {
+    "deploy": "./deploy.sh",
+    "lint": "eslint . --ext js,json",
+    "lint:fix": "eslint . --fix --ext js,json",
+    "serve": "static-server . --port 9011",
+    "test": "yarn lint",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "files": [
+    "/assets/front/js/contract.js",
+    "/application/views/header.php"
+  ],
+  "author": "MetaMask",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "@metamask/onboarding": "^0.2.1",
+    "jquery": "^3.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.3.0",
+    "web-vitals": "^1.0.1",
+    "web3": "^1.5.1",
+    "web3-eth-contract": "^1.5.2"
+  },
+  "devDependencies": {
+    "@metamask/eslint-config": "^2.0.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-json": "^2.0.1",
+    "static-server": "^2.2.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0xa5CF4de177CFDdf4683815383A344941ABeF3B0c",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0xa5cf4de177cfddf4683815383a344941abef3b0c",
+  "NETWORK": {
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 4
+  },
+  "NFT_NAME": "Chelwek X DCAP",
+  "SYMBOL": "CXDCAP",
+  "MAX_SUPPLY": 3000,
+  "WEI_COST": 250000000000000000,
+  "DISPLAY_COST": 0.25,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/chelwek-x-dcap-v2",
+  "SHOW_BACKGROUND": true
+}
